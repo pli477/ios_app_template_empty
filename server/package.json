@@ -1,0 +1,20 @@
+{
+  "name": "tts-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx realtimeTtsProxy.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.46.0",
+    "node-fetch": "^3.3.2",
+    "tsx": "^4.7.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.0"
+  }
+}
