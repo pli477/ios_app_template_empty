@@ -18,6 +18,7 @@
     "@capacitor/geolocation": "^7.1.5",
     "@capacitor/ios": "^7.4.3",
     "@capacitor/local-notifications": "^7.0.3",
+    "dotenv": "^17.2.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.4"
