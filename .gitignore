@@ -33,3 +33,6 @@ DerivedData/
 
 # CocoaPods (keep Podfile & Podfile.lock; ignore installed Pods)
 ios/App/Pods/
+.env
+.env # 确保 .env 在 .gitignore
+.env

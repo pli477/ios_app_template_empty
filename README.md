@@ -29,7 +29,15 @@ npm run ios
 ## 语音识别与AI回复
 - 进入 `/speechRecognition` 同意接入麦克风即可进行系统请求
 - 显示识别出来的文字和AI回复，以及相应的延迟
-- 目前仅支持openAI audio transcriptions和openAI chat model
+- 支持openAI模型与火山引擎端到端实时语音大模型
+
+## 使用火山引擎端到端实时语音大模型
+- 模型介绍： https://www.volcengine.com/docs/6561/1594356
+- websockets version <= 12.0
+- 将APP ID与API access key填入config.py
+- 在start之前，需要运行本地运行server: 在huoshan/realtime_dialog目录下运行python3 main.py
+- known issue: 实时语音的前几秒似乎不会被记录
+- TBD: 1. server返回音频到客户端，还不支持播放 2. 计算AI回复延迟
 
 ## 目录
 - `src/pages/speechRecognition.tsx`：语音识别
